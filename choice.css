@@ -1,0 +1,15 @@
+.choice {
+	display: flex;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	width: 20%;
+	align-self: center;
+	font-size: 1.8rem;
+	border: 0.25rem solid rgb(86,165,235,0.25);
+	background-color: wheat;
+	padding: 0.6rem;
+}
+
+.radio {
+	margin-top: 0.6rem;
+}

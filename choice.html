@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Choose Your Field</title>
+	<link rel="stylesheet" href="app.css">
+	<link rel="stylesheet" href="choice.css">
+</head>
+<body>
+	<div class="container">
+		<div id="home" class="flex-center">
+			<h1>Quix-o-tique</h1>
+			<form action="game.php" method="POST">
+				<div class="choice">
+					<input type="radio" class="radio" name="subject" value="cs">
+					&nbsp&nbsp;
+					<p class="choice-text">Computer Science</p>
+				</div>
+				<div class="choice">
+					<input type="radio" class="radio" name="subject" value="gk">
+					&nbsp&nbsp;
+					<p class="choice-text">General Knowledge</p>
+				</div>
+				<div class="choice">
+					<input type="radio" class="radio" name="subject" value="cs">
+					&nbsp&nbsp;
+					<p class="choice-text">Sports</p>
+				</div>
+				<input class="button" type="submit" value="Start">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
